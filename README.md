@@ -3,11 +3,11 @@ A short script for monitoring battery use that uses some cool sed, awk, and prin
 
 example to begin collecting data:
 
-`$ su
+`$ su`
 
-$ touch /var/log/battery_watch
+`$ touch /var/log/battery_watch`
 
-$ ln -s ./watch.sh /bin/bash/watch.sh
+`$ ln -s ./watch.sh /bin/bash/watch.sh`
 
-$ echo "*/5 * * * * watch.sh" >> /etc/crontab
+`$ echo "*/5 * * * * watch.sh" >> /etc/crontab`
 `
